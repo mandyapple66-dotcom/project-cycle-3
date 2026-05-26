@@ -1,3 +1,10 @@
-變數名稱 (Variable),資料型態 (Type),類別 (Category),有效樣本/人數 (Count),平均數/比例 (Mean/Prop),標準差 (Std. Dev),95% 置信區間 (95% CI),檢定假說 (H0),p-value
-Alcohol_Binary (目前飲酒行為),類別數值,Male (0),6234,45.77%,-,-,-,-
-Alcohol_Binary (目前飲酒行為),類別數值,Female (1),6425,44.58%,-,"(-0.0292, 0.0054)*",p_female = p_male,0.1789
+嚜燄ariable,Data Type,Analysis Group / Category,Sample Size (Count),Alcohol Use Proportion (%),Statistical Method,Degrees of Freedom (df),Chi-Square Statistic (Chi2),Asymptotic P-value
+Sex_Binary,Binary Categorical,Male (0),6213,45.74%,Chi-Square Test of Independence,1,1.8152,0.1779
+Sex_Binary,Binary Categorical,Female (1),6402,44.53%,-,-,-,-
+Age_Numeric,Discrete Numeric,Age 12,12,83.33%,Chi-Square Test of Independence,6,202.4067,< 0.0001
+Age_Numeric,Discrete Numeric,Age 13,6,50.00%,-,-,-,-
+Age_Numeric,Discrete Numeric,Age 14,1253,32.96%,-,-,-,-
+Age_Numeric,Discrete Numeric,Age 15,2889,39.18%,-,-,-,-
+Age_Numeric,Discrete Numeric,Age 16,3252,45.51%,-,-,-,-
+Age_Numeric,Discrete Numeric,Age 17,3245,49.74%,-,-,-,-
+Age_Numeric,Discrete Numeric,Age 18,1958,53.17%,-,-,-,-
