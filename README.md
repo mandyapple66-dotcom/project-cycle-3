@@ -13,7 +13,7 @@
 * **Context:** We initially aimed to evaluate whether adolescent drinking habits vary fundamentally by biological sex, or if the observed sample differences are simply due to random sampling variations.
 
 ### 🚀 Cycle 3 Expansion (Advanced Multi-Variable Inquiry)
-While addressing the macro-level sex difference, we discovered that looking at sex in isolation obscures underlying developmental patterns. To break this analytical bottleneck, we **大膽引入了第二個核心變數：年齡（Age_Numeric）**。 This allows us to investigate a more profound, stratified question:
+While addressing the macro-level sex difference, we discovered that looking at sex in isolation obscures underlying developmental patterns. To break this analytical bottleneck, we intentionally expanded our analytical framework by introducing a second core variable: Age_Numeric.This allows us to investigate a more profound, stratified question:
 > **Does the relationship between biological sex and current alcohol use undergo a developmental trajectory across different chronological adolescent ages (12–18)?**
 
 ---
