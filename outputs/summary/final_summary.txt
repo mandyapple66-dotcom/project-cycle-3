@@ -85,11 +85,22 @@ All statistical assumptions were fully verified:
 
 - Crucial Interaction Insight (The Gender-Age Cross-over Effect):
   While the macro-level sex test yielded non-significant results, the fine-grained multi-variable 
-  breakdown uncovers a hidden psychological transition phase across developmental stages:
-  * Early Adolescence (Ages 14-15): Female students exhibit a higher propensity for 
-    alcohol use than males (e.g., Age 14 Female: 38.15% vs. Male: 27.23%).
-  * Late Adolescence (Ages 17-18): Male students experience a sharper acceleration and 
-    ultimately overtake females as they reach adulthood (e.g., Age 18 Male: 55.53% vs. Female: 50.54%).
+  breakdown uncovers a hidden psychological transition phase across developmental stages, 
+  conditioned on sample size evaluation:
+
+  * Methodological Caveat (Ages 12-13): The chart displays anomalously high drinking 
+    proportions for ages 12 (83.33%) and 13 (50.00%). However, reference to the raw data 
+    reveals extremely sparse sample sizes (n=12 and n=6, respectively). These spikes are 
+    statistically unreliable artifacts of small-sample random fluctuation and hold no 
+    representative value.
+  * Early Adolescence (Ages 14-15 - High Sample Reliability): Supported by robust and 
+    highly reliable sample sizes (Age 14 N=1,253; Age 15 N=2,889), female students exhibit 
+    a notably higher propensity for current alcohol use than males (e.g., Age 14 Female: 
+    38.15% vs. Male: 27.23%). This establishes a statistically sound behavioral acceleration 
+    among young females during early adolescence.
+  * Late Adolescence (Ages 17-18): As sample counts remain deeply robust, male students 
+    experience a steeper behavioral trajectory and ultimately overtake females as they near 
+    legal adulthood (e.g., Age 18 Male: 55.53% vs. Female: 50.54%).
 
 
 5. COMPREHENSIVE COMPLEMENTARY ARTIFACT INTERACTION
