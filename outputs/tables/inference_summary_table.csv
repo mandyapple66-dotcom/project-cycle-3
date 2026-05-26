@@ -1,0 +1,3 @@
+變數名稱 (Variable),資料型態 (Type),類別 (Category),有效樣本/人數 (Count),平均數/比例 (Mean/Prop),標準差 (Std. Dev),95% 置信區間 (95% CI),檢定假說 (H0),p-value
+Alcohol_Binary (目前飲酒行為),類別數值,Male (0),6234,45.77%,-,-,-,-
+Alcohol_Binary (目前飲酒行為),類別數值,Female (1),6425,44.58%,-,"(-0.0292, 0.0054)*",p_female = p_male,0.1789
