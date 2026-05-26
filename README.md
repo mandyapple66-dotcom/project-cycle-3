@@ -29,14 +29,30 @@ To ensure full data integrity and reproducibility, raw categorical response code
 
 ---
 
-## 🛠️ Method Used: Dual Chi-Square ($\chi^2$) Tests of Independence
-Rather than performing disconnected two-proportion z-tests, we utilize a unified **Chi-Square ($\chi^2$) Test of Independence** framework. This advanced approach accommodates multi-level discrete variables (Age) and ensures methodological alignment across both dimensions.
+## 🛠️ Method Used: Strategic Transition from Z-Test to Chi-Square ($\chi^2$) Framework
 
-### Statistical Assumption Verifications:
-* **Independence:** The CDC's multi-stage cluster sampling design guarantees distinct individual records.
-* **10% Condition:** The total analytical sample ($N = 12,615$) constitutes less than 10% of the entire US high school student population.
-* **Large Sample Expectation:** Due to our robust sample size, all expected frequencies in the cross-tabulation matrix cells vastly exceed the standard minimum rule-of-thumb threshold ($E_{ij} \ge 5$).
+### 🔹 Phase 1: Initial Framework — Two-Proportion $Z$-Test
+Initially, a **Two-Independent-Sample $Z$-Test for Proportions** was planned to directly address the original **Question 2** (overall binary sex comparison). 
+* **Application:** This method was perfectly suited for evaluating whether a statistically significant difference existed between two independent groups (Male vs. Female) based on a binary response variable (Active User vs. Non-User).
+* **Limitations:** The $Z$-test is strictly constrained to comparing exactly **two groups**. Once we expanded our scope, this univariate approach reached an analytical bottleneck and could no longer accommodate more complex data structures.
 
+### 🔹 Phase 2: Advanced Framework — Chi-Square ($\chi^2$) Test of Independence
+To capture deeper behavioral dynamics, we **boldly introduced a second core variable: Age_Numeric**. Because the age variable contains 7 distinct levels (Ages 12–18), the data structure transitioned into a multi-level contingency matrix, rendering the initial $Z$-test mathematically obsolete for the age dimension. We therefore migrated to a unified **Chi-Square ($\chi^2$) Test of Independence** framework.
+
+**Why Chi-Square?**
+* **Methodological Unity:** It allows us to execute a single, methodologically aligned test across both research dimensions, seamlessly handling both the $2 \times 2$ table (Sex) and the $7 \times 2$ table (Age).
+* **Mathematical Equivalence:** For the overall $2 \times 2$ Sex-vs-Alcohol analysis, the Chi-Square test is mathematically equivalent to the Two-proportion $Z$-test, following the precise statistical relationship: 
+  $$Z^2 = \chi^2$$
+  This ensures that our foundational verdict on gender dynamics remains absolutely robust and identical ($p = 0.1779$), while granting us the mathematical flexibility to unlock age-stratified insights.
+
+---
+
+### 📋 Statistical Assumption Verifications
+To ensure the mathematical validity of the Chi-Square inference, all core assumptions were strictly verified:
+
+* **Independence:** The CDC's multi-stage cluster sampling design guarantees that each observation represents a distinct individual record with no overlapping clusters.
+* **10% Condition:** Our final analytical sample ($N = 12,615$) is well below 10% of the entire US high school student population, satisfying the requirement for sampling without replacement.
+* **Large Sample Expectation:** Due to the robust sample volume, all expected cell frequencies ($E_{ij}$) in the cross-tabulation matrices significantly exceed the standard minimum academic threshold ($E_{ij} \ge 5$), satisfying the requirements for the Chi-Square distribution.
 ---
 
 ## 📈 Key Statistical Findings & Interpretations
