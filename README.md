@@ -3,6 +3,10 @@
 ## 👥 Group Information
 * **Group Number:** Group 16
 * **Member Names:** 113370212 顏名萱, 113370234 王奕晴
+* ## Project Repository
+* https://github.com/mandyapple66-dotcom/project-cycle-3.git
+* ## Presentation Video
+* https://youtu.be/sl3qxB9jX18
 
 ---
 
